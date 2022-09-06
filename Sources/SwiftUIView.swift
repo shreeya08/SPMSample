@@ -8,7 +8,9 @@
 import Foundation
 import SwiftUI
 
-struct swiftUIView : View {
+@available(iOS 13.0 , *)
+public struct swiftUIView : View {
+    public init() {}
     var body ":some View {
         Text("Sample view from the package ")
     Image(uiImage : UIImage(named: "Image", in: .module, with: nil)
