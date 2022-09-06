@@ -13,10 +13,10 @@ public struct swiftUIView : View {
     public init() {}
     var body : some View {
         Text("Sample view from the package")
-//        Image(uiImage : UIImage(named: "Image", in: .module, with: nil)
-//        .resizable()
-//        .frame(width: 100, height: 100, alignment: .center)
-//        .aspectRatio(contentMode: .fit)
+        Image(uiImage : UIImage(named: "Image", in: .module, with: nil)
+        .resizable()
+        .frame(width: 100, height: 100, alignment: .center)
+        .aspectRatio(contentMode: .fit)
     }
           //Test
 }
